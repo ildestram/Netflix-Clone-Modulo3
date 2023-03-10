@@ -111,6 +111,8 @@ footer {
   animation: fade-in 0.5s;
 }
 
+/* Animazione per fare in modo che le tre row vengano caricate con un effetto ease-out */
+
 .reveal-section {
   opacity: 0;
   transform: translateY(100px);
