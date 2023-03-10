@@ -5,14 +5,14 @@ const secondoClick = document.getElementById("search-component");
 const sections = document.querySelectorAll(".reveal-section");
 
 window.addEventListener("load", () => {
-  let delay = 0;
+  let ritardo = 0;
 
   sections.forEach((section) => {
     setTimeout(() => {
       section.classList.add("reveal");
-    }, delay);
+    }, ritardo);
 
-    delay += 500;
+    ritardo += 500;
   });
 });
 
