@@ -111,6 +111,17 @@ footer {
   animation: fade-in 0.5s;
 }
 
+.reveal-section {
+  opacity: 0;
+  transform: translateY(100px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.reveal-section.reveal {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 /* Ho usato l'animazione che ho chiamato fade-in */
 @keyframes fade-in {
   from {
